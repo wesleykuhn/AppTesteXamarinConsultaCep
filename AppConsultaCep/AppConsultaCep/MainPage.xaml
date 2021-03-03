@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--A contentPage só pode ter um componente!-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppConsultaCep.MainPage">
+    
+    <!--Existem 3 tipos de elementos no Xamarin:
+            *Pages: Tipos de tela.
+            *Layouts: Organizar os elementos na tela.
+            *Views: Controles que interagem com user.-->
+    <!--O StackLayout empilha os elementos dentro dele. Um a baixo do outro.-->
+    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+        <Image Source="icon.png"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="white" MaxLength="8" x:Name="ent_TypedCep"/>
+        <Button Text="BUSCAR" TextColor="White" BackgroundColor="OrangeRed" x:Name="btn_Search"/>
+        <Label Text="" VerticalOptions="Center" HorizontalOptions="Center" x:Name="lbl_Result"/>
+    </StackLayout>
+</ContentPage>
