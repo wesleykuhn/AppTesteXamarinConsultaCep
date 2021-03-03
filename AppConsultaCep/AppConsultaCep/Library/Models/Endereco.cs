@@ -15,14 +15,14 @@
         public override string ToString()
         {
             return "CEP: " + this.cep +
-                "\nLogradouro: " + this.cep +
-                "\nComplemento: " + this.cep +
-                "\nBairro: " + this.cep +
-                "\nLocalidade: " + this.cep +
-                "\nUF: " + this.cep +
-                "\nUnidade: " + this.cep +
-                "\nIBGE: " + this.cep +
-                "\nGIA: " + this.cep;
+                "\nLogradouro: " + this.logradouro +
+                "\nComplemento: " + this.complemento +
+                "\nBairro: " + this.bairro +
+                "\nLocalidade: " + this.localidade +
+                "\nUF: " + this.uf +
+                "\nUnidade: " + this.unidade +
+                "\nIBGE: " + this.ibge +
+                "\nGIA: " + this.gia;
         }
     }
 }
